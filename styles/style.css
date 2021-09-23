@@ -61,6 +61,12 @@ picture {
 }
 #heroImage {
 
+} 
+#sectionImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 article {
     background-image: url(../assets/placeholderbg.png)
@@ -83,6 +89,18 @@ footer {
         color: white;
         text-align: center;
 }
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
 //snippet from blrdesign.com
 @keyframes focus-in {
     0% {
